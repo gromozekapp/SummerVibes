@@ -9,6 +9,6 @@
 Using information sourced from https://github.com/gromozekapp/SummerVibes
 
 
-|![Screen1](Images/Simulator-Screen.png)|![SShot2](Images/Simulator-Screen0.png)|
+|![Screen1](images/Simulator-Screen.png)|![SShot2](images/Simulator-Screen0.png)|
 |---------------------------------------|---------------------------------------|
-|![mac512](Images/Simulator-Screen-Recording.gif)|
+|![mac512](images/Simulator-Screen-Recording.gif)|
