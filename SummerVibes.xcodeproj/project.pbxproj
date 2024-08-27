@@ -11,6 +11,10 @@
 		49502DC82C79EA040080722C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49502DC72C79EA040080722C /* ContentView.swift */; };
 		49502DCA2C79EA050080722C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49502DC92C79EA050080722C /* Assets.xcassets */; };
 		49502DCD2C79EA050080722C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49502DCC2C79EA050080722C /* Preview Assets.xcassets */; };
+		49502DD42C79EA260080722C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49502DD32C79EA260080722C /* PostModel.swift */; };
+		49502DD62C79EAD50080722C /* PostCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49502DD52C79EAD50080722C /* PostCellView.swift */; };
+		49502DD82C79F4790080722C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49502DD72C79F4790080722C /* FeedView.swift */; };
+		49502DDA2C7A2C000080722C /* SinglePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49502DD92C7A2C000080722C /* SinglePostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		49502DC72C79EA040080722C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49502DC92C79EA050080722C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49502DCC2C79EA050080722C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49502DD32C79EA260080722C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		49502DD52C79EAD50080722C /* PostCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellView.swift; sourceTree = "<group>"; };
+		49502DD72C79F4790080722C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		49502DD92C7A2C000080722C /* SinglePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				49502DC52C79EA040080722C /* SummerVibesApp.swift */,
 				49502DC72C79EA040080722C /* ContentView.swift */,
+				49502DD32C79EA260080722C /* PostModel.swift */,
+				49502DD52C79EAD50080722C /* PostCellView.swift */,
+				49502DD72C79F4790080722C /* FeedView.swift */,
+				49502DD92C7A2C000080722C /* SinglePostView.swift */,
 				49502DC92C79EA050080722C /* Assets.xcassets */,
 				49502DCB2C79EA050080722C /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49502DDA2C7A2C000080722C /* SinglePostView.swift in Sources */,
+				49502DD82C79F4790080722C /* FeedView.swift in Sources */,
 				49502DC82C79EA040080722C /* ContentView.swift in Sources */,
+				49502DD42C79EA260080722C /* PostModel.swift in Sources */,
+				49502DD62C79EAD50080722C /* PostCellView.swift in Sources */,
 				49502DC62C79EA040080722C /* SummerVibesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
